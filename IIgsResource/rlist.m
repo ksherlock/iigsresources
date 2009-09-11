@@ -39,8 +39,6 @@ void rlist(char *file)
     }
     printf("\n");
 
-    NSLog(@"%@", [resource stringForID: 0x001 type: rPString]);
-
 }
 
 int main(int argc, char **argv)
