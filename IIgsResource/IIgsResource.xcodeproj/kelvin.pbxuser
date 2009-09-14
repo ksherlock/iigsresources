@@ -7,6 +7,8 @@
 		addToTargets = (
 			D2AAC07D0554694100DB518D /* IIgsResource */,
 		);
+		breakpoints = (
+		);
 		codeSenseManager = B6E72C8E1059DDDB001CE54E /* Code sense */;
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -14,7 +16,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					651,
 					20,
 					48,
 					43,
@@ -53,12 +55,72 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 274325599;
-			PBXWorkspaceStateSaveDate = 274325599;
+			PBXPerProjectTemplateStateSaveDate = 274469452;
+			PBXWorkspaceStateSaveDate = 274469452;
+		};
+		perUserProjectItems = {
+			B628F5BC105DC1C200B291A4 /* PBXTextBookmark */ = B628F5BC105DC1C200B291A4 /* PBXTextBookmark */;
+			B628F5BD105DC1C200B291A4 /* PBXTextBookmark */ = B628F5BD105DC1C200B291A4 /* PBXTextBookmark */;
+			B628F5BE105DC1C200B291A4 /* PBXTextBookmark */ = B628F5BE105DC1C200B291A4 /* PBXTextBookmark */;
+			B628F5BF105DC1C200B291A4 /* PBXTextBookmark */ = B628F5BF105DC1C200B291A4 /* PBXTextBookmark */;
 		};
 		sourceControlManager = B6E72C8D1059DDDB001CE54E /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	B628F567105C128D00B291A4 /* ResourceManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1670, 2886}}";
+			sepNavSelRange = "{274, 0}";
+			sepNavVisRange = "{6377, 2252}";
+		};
+	};
+	B628F568105C128D00B291A4 /* ResourceManager.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1670, 6838}}";
+			sepNavSelRange = "{13209, 0}";
+			sepNavVisRange = "{0, 1401}";
+		};
+	};
+	B628F5BC105DC1C200B291A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B628F567105C128D00B291A4 /* ResourceManager.h */;
+		name = "ResourceManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 278;
+		vrLoc = 0;
+	};
+	B628F5BD105DC1C200B291A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6E72C8F1059DDE4001CE54E /* IIgsResource.mm */;
+		name = "IIgsResource.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 1445;
+	};
+	B628F5BE105DC1C200B291A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B628F568105C128D00B291A4 /* ResourceManager.cpp */;
+		name = "ResourceManager.cpp: 23";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	B628F5BF105DC1C200B291A4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B628F568105C128D00B291A4 /* ResourceManager.cpp */;
+		name = "ResourceManager.cpp: 23";
+		rLen = 0;
+		rLoc = 292;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
 	};
 	B6E72C8D1059DDDB001CE54E /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -76,16 +138,16 @@
 	};
 	B6E72C8F1059DDE4001CE54E /* IIgsResource.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1198, 7111}}";
+			sepNavIntBoundsRect = "{{0, 0}, {829, 7150}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{1445, 1613}";
+			sepNavVisRange = "{1445, 747}";
 		};
 	};
 	B6E72C901059DDE4001CE54E /* IIgsResource.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1198, 1378}}";
-			sepNavSelRange = "{152, 0}";
-			sepNavVisRange = "{0, 3090}";
+			sepNavIntBoundsRect = "{{0, 0}, {1670, 1625}}";
+			sepNavSelRange = "{3048, 137}";
+			sepNavVisRange = "{0, 3070}";
 		};
 	};
 	D2AAC07D0554694100DB518D /* IIgsResource */ = {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B628F569105C128D00B291A4 /* ResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B628F567105C128D00B291A4 /* ResourceManager.h */; };
+		B628F56A105C128D00B291A4 /* ResourceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B628F568105C128D00B291A4 /* ResourceManager.cpp */; };
 		B6E72C911059DDE4001CE54E /* IIgsResource.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6E72C8F1059DDE4001CE54E /* IIgsResource.mm */; };
 		B6E72C921059DDE4001CE54E /* IIgsResource.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E72C901059DDE4001CE54E /* IIgsResource.h */; };
 		D2AAC088055469A000DB518D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
@@ -17,6 +19,8 @@
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* IIgsResource_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIgsResource_Prefix.pch; sourceTree = "<group>"; };
+		B628F567105C128D00B291A4 /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
+		B628F568105C128D00B291A4 /* ResourceManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ResourceManager.cpp; sourceTree = "<group>"; };
 		B6E72C8F1059DDE4001CE54E /* IIgsResource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IIgsResource.mm; sourceTree = "<group>"; };
 		B6E72C901059DDE4001CE54E /* IIgsResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIgsResource.h; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libIIgsResource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIIgsResource.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				B6E72C8F1059DDE4001CE54E /* IIgsResource.mm */,
+				B628F567105C128D00B291A4 /* ResourceManager.h */,
+				B628F568105C128D00B291A4 /* ResourceManager.cpp */,
 				B6E72C901059DDE4001CE54E /* IIgsResource.h */,
 			);
 			name = Classes;
@@ -106,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6E72C921059DDE4001CE54E /* IIgsResource.h in Headers */,
+				B628F569105C128D00B291A4 /* ResourceManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6E72C911059DDE4001CE54E /* IIgsResource.mm in Sources */,
+				B628F56A105C128D00B291A4 /* ResourceManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
