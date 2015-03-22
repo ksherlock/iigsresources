@@ -1,0 +1,1 @@
+GS/OS supported resource forks.  This project is dedicated to helping lesser operating systems support them as well.
